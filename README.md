@@ -1,4 +1,5 @@
 # 一个用react构建的豆瓣书籍/电影/音乐在线资源搜索的小应用
+[演示页面](https://jiafengz.github.io/react-douban-app/dist/index.html)
 ## 1 实现的功能
 * 1、底部导航
 * 2、电影、音乐、书籍列表页搜索展示
