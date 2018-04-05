@@ -5,7 +5,8 @@
   "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "jiafeng zhong",
@@ -27,8 +28,6 @@
     "jquery": "^3.3.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-pullload": "^1.1.0",
-    "react-scroll": "^1.7.7",
-    "reactjs-iscroll": "^0.3.2"
+    "react-pullload": "^1.1.0"
   }
 }
