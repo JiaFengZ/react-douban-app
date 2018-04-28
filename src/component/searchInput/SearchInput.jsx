@@ -15,10 +15,10 @@ class SearchBar extends Component {
     handleChange(event) {
         this.setState({
             searchInput: event.target.value
-        }, function() {
+        }, () => {
             var that = this;
-            that.searchTimer = setTimeout(function() {
-                if (that.searchTimer) clearTimeout(that.searchTimer);
+            if (that.searchTimer) clearTimeout(that.searchTimer);
+            that.searchTimer = setTimeout(() => {                
                 that.search();
             }, 500);
         });
